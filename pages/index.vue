@@ -1,22 +1,11 @@
 <template>
   <section class="container">
     <div>
-      <app-logo/>
-      <h1 class="title">
-        xiaoguo-web
-      </h1>
       <h2 class="subtitle">
-        xiaoguo-web
+        送你一束小花，你就开心了
       </h2>
       <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
+        
       </div>
     </div>
   </section>
@@ -60,5 +49,11 @@ export default {
 
 .links {
   padding-top: 15px;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  background-image: url('../static/timg.jpeg');
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 </style>
